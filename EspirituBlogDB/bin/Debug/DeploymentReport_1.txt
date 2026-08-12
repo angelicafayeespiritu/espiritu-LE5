@@ -1,0 +1,19 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Users]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[Users] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Posts_Users] (Foreign Key)
+     Create
+       [dbo].[FK_Posts_Users] (Foreign Key)

@@ -1,0 +1,6 @@
+C:\Users\ADMIN\source\repos\EspirituLE2\BlogDataLibrary\bin\Debug\BlogDataLibrary.dll
+C:\Users\ADMIN\source\repos\EspirituLE2\BlogDataLibrary\bin\Debug\BlogDataLibrary.pdb
+C:\Users\ADMIN\source\repos\EspirituLE2\BlogDataLibrary\obj\Debug\BlogDataLibrary.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\EspirituLE2\BlogDataLibrary\obj\Debug\BlogDataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\EspirituLE2\BlogDataLibrary\obj\Debug\BlogDataLibrary.dll
+C:\Users\ADMIN\source\repos\EspirituLE2\BlogDataLibrary\obj\Debug\BlogDataLibrary.pdb
