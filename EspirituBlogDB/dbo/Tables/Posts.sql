@@ -5,7 +5,7 @@
     [Title] NVARCHAR(100) NOT NULL, 
     [Content] NVARCHAR(MAX) NOT NULL, 
     [DateCreated] DATETIME2 NOT NULL,
-
+    [Body] NVARCHAR(MAX) NULL, 
     CONSTRAINT [FK_Posts_Users] 
        FOREIGN KEY ([UserId]) REFERENCES [Users]([Id])
 )

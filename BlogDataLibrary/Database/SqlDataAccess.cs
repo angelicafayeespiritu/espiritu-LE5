@@ -16,10 +16,12 @@ namespace BlogDataLibrary.Database
             _config = config;
         }
 
-        public async Task<List<T>> LoadData<T, U>(string storedProcedure, U parameters, string connectionStringName)
+        public async Task<List<T>> LoadData<T, U>(
+            string storedProcedure,
+            U parameters,
+            string connectionStringName)
         {
-            using (IDbConnection connection =
-                new SqlConnection(_config.GetConnectionString(connectionStringName)))
+            using (IDbConnection connection = new SqlConnection(_config.GetConnectionString(connectionStringName)))
             {
                 var rows = await connection.QueryAsync<T>(
                     storedProcedure,
@@ -30,10 +32,12 @@ namespace BlogDataLibrary.Database
             }
         }
 
-        public async Task SaveData<T>(string storedProcedure, T parameters, string connectionStringName)
+        public async Task SaveData<T>(
+            string storedProcedure,
+            T parameters,
+            string connectionStringName)
         {
-            using (IDbConnection connection =
-                new SqlConnection(_config.GetConnectionString(connectionStringName)))
+            using (IDbConnection connection = new SqlConnection(_config.GetConnectionString(connectionStringName)))
             {
                 await connection.ExecuteAsync(
                     storedProcedure,

@@ -1,7 +1,6 @@
 C:\Users\ADMIN\source\repos\EspirituLE2\EspirituBlogDB\bin\Debug\EspirituBlogDB.dacpac
 C:\Users\ADMIN\source\repos\EspirituLE2\EspirituBlogDB\bin\Debug\EspirituBlogDB.dll
 C:\Users\ADMIN\source\repos\EspirituLE2\EspirituBlogDB\bin\Debug\EspirituBlogDB.pdb
-C:\Users\ADMIN\source\repos\EspirituLE2\EspirituBlogDB\obj\Debug\EspirituBlogDB.sqlproj.AssemblyReference.cache
 C:\Users\ADMIN\source\repos\EspirituLE2\EspirituBlogDB\obj\Debug\Model.xml
 C:\Users\ADMIN\source\repos\EspirituLE2\EspirituBlogDB\obj\Debug\refactor.xml
 C:\Users\ADMIN\source\repos\EspirituLE2\EspirituBlogDB\obj\Debug\postdeploy.sql
