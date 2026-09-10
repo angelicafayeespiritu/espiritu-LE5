@@ -1,0 +1,5 @@
+<div *ngIf="post">
+  <h3><a [routerLink]="['/posts', post.id]">{{ post.title }}</a></h3>
+  <p>by {{ post.userName }} ; on {{ post.dateCreated | date:'medium' }}</p>
+  <p>{{ post.body }}</p>
+</div>
